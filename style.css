@@ -1,0 +1,47 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.start {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.wave {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.paddleboarding {
+    width: 600px;
+    text-align: justify;
+}
