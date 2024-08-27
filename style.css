@@ -4,44 +4,280 @@ html {
 }
 
 body {
-    background-color: white;
+    background-color: lightblue;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 
-.start {
+.opening {
+    background-color: magenta;
+    border-radius: 10px;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 1080px;
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
     justify-content: center;
 }
 
-.socials {
+.sup {
+    background-color: bisque;
+    border-radius: 10px;
+    padding: 10px 25px;
+    width: 100%;
+    max-width: 960px;
     display: flex;
-    justify-content: center;
-    align-items: center
+    flex-direction: row;
 }
 
-.icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-h1 {
-    display: flex;
-    justify-content: left;
-    align-items: left;
+.paddle {
+    color: gray;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-right: 50px;
 }
 
 .wave {
-    display: flex;
-    justify-content: right;
-    align-items: right;
+    margin-left: 50px;
 }
 
 .paddleboarding {
-    width: 600px;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 10px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: row;
+}
+
+.paddle-text {
     text-align: justify;
+    margin: 20px;
+}
+
+.sup-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.waves {
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding: 10px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rafting {
+    background-color: green;
+    border-radius: 10px;
+    padding: 10px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rafting-text {
+    text-align: justify;
+    margin: 20px;
+}
+
+.rafting-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.roads {
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 10px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+}
+
+.off-road {
+    background-color: yellowgreen;
+    border-radius: 10px;
+    padding: 10px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+}
+
+.road-text {
+    text-align: justify;
+    margin: 20px;
+}
+
+.off-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.rapids {
+    background-color: darkred;
+    border-radius: 10px;
+    padding: 10px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+}
+
+.kayaking {
+    background-color: darkorange;
+    border-radius: 10px;
+    padding: 10px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+}
+
+.kayak-text {
+    text-align: justify;
+    margin: 20px;
+}
+
+.kayaking-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.agency {
+    background-color: purple;
+    border-radius: 10px;
+    padding: 10px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+}
+
+.agency-text {
+    text-align: justify;
+    margin: 20px;
+}
+
+.outdoors {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.rental {
+    background-color: pink;
+    border-radius: 10px;
+    padding: 10px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: row;
+}
+
+.equipment {
+    color: gray;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-right: 50px;
+}
+
+.bicykle-tracks {
+    margin-left: 50px;
+}
+
+.cross {
+    background-color: lightcoral;
+    border-radius: 10px;
+    padding: 10px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: row;
+}
+
+.mistral {
+    background-color: lightsalmon;
+    border-radius: 10px;
+    padding: 10px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: row;
+}
+
+.wolf {
+    background-color: lightseagreen;
+    border-radius: 10px;
+    padding: 10px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: row;
+}
+
+.quatro {
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 10px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: row;
+}
+
+.filming {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: row;
+}
+
+.film-icon {
+    color: gray;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-right: 50px;
+}
+
+.film-header {
+    margin-left: 50px;
+}
+
+.film-support {
+    background-color: navajowhite;
+    border-radius: 10px;
+    padding: 10px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+}
+
+.film-text {
+    text-align: justify;
+    margin: 20px;
+}
+
+.ending {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
