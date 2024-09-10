@@ -13,7 +13,6 @@ body {
 }
 
 .opening {
-    background-color: magenta;
     border-radius: 10px;
     padding: 15px 25px;
     width: 100%;
@@ -24,7 +23,6 @@ body {
 }
 
 .sup {
-    background-color: bisque;
     border-radius: 10px;
     padding: 10px 25px;
     width: 100%;
@@ -45,7 +43,6 @@ body {
 }
 
 .paddleboarding {
-    background-color: aqua;
     border-radius: 10px;
     padding: 10px 25px;
     width: 100%;
@@ -59,10 +56,16 @@ body {
     margin: 20px;
 }
 
-.sup-img {
+.images {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tour {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .waves {
@@ -72,17 +75,28 @@ body {
     width: 100%;
     max-width: 960px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+}
+
+.raft-icon {
+    margin-right: 100px;
+}
+
+.raft {
+    color: gray;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-right: 50px;
+    padding-left: 10%;
 }
 
 .rafting {
     background-color: green;
     border-radius: 10px;
-    padding: 10px 25px;
-    width: 100%;
+    width: 110%;
     max-width: 960px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .rafting-text {
@@ -92,7 +106,7 @@ body {
 
 .rafting-images {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
@@ -142,9 +156,10 @@ body {
     border-radius: 10px;
     padding: 10px 25px;
     width: 100%;
-    max-width: 960px;
+    max-width: 1400px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .kayak-text {
@@ -152,7 +167,7 @@ body {
     margin: 20px;
 }
 
-.kayaking-img {
+.kayaking-images {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -165,7 +180,8 @@ body {
     width: 100%;
     max-width: 960px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .agency-text {
@@ -177,10 +193,11 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    max-width: 50%;
+    max-height: 50%;
 }
 
 .rental {
-    background-color: pink;
     border-radius: 10px;
     padding: 10px 25px;
     width: 100%;
@@ -201,17 +218,31 @@ body {
 }
 
 .cross {
-    background-color: lightcoral;
     border-radius: 10px;
     padding: 10px 25px;
     width: 100%;
     max-width: 960px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.bicycle {
+    max-width: 90%;
+    max-height: 90%;
+    padding-left: 30px;
+}
+
+.pricing {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
 }
 
 .mistral {
-    background-color: lightsalmon;
     border-radius: 10px;
     padding: 10px 25px;
     width: 100%;
@@ -221,7 +252,6 @@ body {
 }
 
 .wolf {
-    background-color: lightseagreen;
     border-radius: 10px;
     padding: 10px 25px;
     width: 100%;
@@ -231,7 +261,6 @@ body {
 }
 
 .quatro {
-    background-color: lightgray;
     border-radius: 10px;
     padding: 10px 25px;
     width: 100%;
@@ -240,8 +269,13 @@ body {
     flex-direction: row;
 }
 
+.boards {
+    max-width: 90%;
+    max-height: 90%;
+    padding-left: 30px;
+}
+
 .filming {
-    background-color: white;
     border-radius: 10px;
     padding: 10px 25px;
     width: 100%;
@@ -262,22 +296,47 @@ body {
 }
 
 .film-support {
-    background-color: navajowhite;
     border-radius: 10px;
     padding: 10px 25px;
     width: 100%;
     max-width: 960px;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.film-text {
-    text-align: justify;
+.riverwood {
+    max-width: 100%;
+    max-height: 100%;
     margin: 20px;
 }
 
+
+.film-text {
+    text-align: justify;
+    padding-left: 20px;
+}
+
+.frame {
+    padding-left: 45px;
+}
+
 .ending {
+    float: right;
+    padding-right: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+/* .frame {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    max-height: 50%; */
+/* } */
+
+/* .ending {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-}
+} */
