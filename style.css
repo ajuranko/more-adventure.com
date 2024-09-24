@@ -1,10 +1,9 @@
 html {
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: sans-serif;
 }
 
 body {
-    background-color: lightblue;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,145 +55,22 @@ body {
     margin: 20px;
 }
 
+.sup-img {}
+
 .images {
+    width: 100%;
+    max-width: 550px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .tour {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.waves {
-    background-color: aquamarine;
-    border-radius: 10px;
-    padding: 10px 25px;
     width: 100%;
-    max-width: 960px;
-    display: flex;
-    flex-direction: row;
-}
-
-.raft-icon {
-    margin-right: 100px;
-}
-
-.raft {
-    color: gray;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-right: 50px;
-    padding-left: 10%;
-}
-
-.rafting {
-    background-color: green;
-    border-radius: 10px;
-    width: 110%;
-    max-width: 960px;
-    display: flex;
-    flex-direction: row;
-}
-
-.rafting-text {
-    text-align: justify;
-    margin: 20px;
-}
-
-.rafting-images {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.roads {
-    background-color: yellow;
-    border-radius: 10px;
-    padding: 10px 25px;
-    width: 100%;
-    max-width: 960px;
-    display: flex;
-    flex-direction: column;
-}
-
-.off-road {
-    background-color: yellowgreen;
-    border-radius: 10px;
-    padding: 10px 25px;
-    width: 100%;
-    max-width: 960px;
-    display: flex;
-    flex-direction: column;
-}
-
-.road-text {
-    text-align: justify;
-    margin: 20px;
-}
-
-.off-images {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.rapids {
-    background-color: darkred;
-    border-radius: 10px;
-    padding: 10px 25px;
-    width: 100%;
-    max-width: 960px;
-    display: flex;
-    flex-direction: column;
-}
-
-.kayaking {
-    background-color: darkorange;
-    border-radius: 10px;
-    padding: 10px 25px;
-    width: 100%;
-    max-width: 1400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.kayak-text {
-    text-align: justify;
-    margin: 20px;
-}
-
-.kayaking-images {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.agency {
-    background-color: purple;
-    border-radius: 10px;
-    padding: 10px 25px;
-    width: 100%;
-    max-width: 960px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.agency-text {
-    text-align: justify;
-    margin: 20px;
-}
-
-.outdoors {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    max-width: 50%;
-    max-height: 50%;
+    object-fit: contain;
 }
 
 .rental {
@@ -328,15 +204,57 @@ body {
     height: 100px;
 }
 
-/* .frame {
-    display: flex;
-    flex-direction: column;
-    max-width: 50%;
-    max-height: 50%; */
-/* } */
+@media (max-width: 420px) {
 
-/* .ending {
+    .paddleboarding {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+/* @media (min-width: 421px) and (max-widht: 479px) {}
+
+@media (min-width: 544px) and (max-width: 544px) {}
+
+@media (min-width: 576px) and (max-width: 767px) {}
+
+@media (min-width: 769px) and (max-width: 782px) {}
+
+@media (min-width: 783px) and (max-width: 921px) {}
+
+@media (min-width: 922px) and (max-width: 992px) {}
+
+@media (min-width: 993px) and (max-width: 1024px) {}
+
+@media (min-width: 1025px) and (max-width: -1) {}
+
+@media (max-width: 1200px) {}
+
+@media (min-widht: 1201px) {} */
+
+/* .gallery {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-} */
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .gallery::after {
+    content: "";
+    width: 350px;
+  } */
